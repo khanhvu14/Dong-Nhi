@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		543532321906AD1100305A5A /* AprilCustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 543532311906AD1100305A5A /* AprilCustomViewController.m */; };
+		5435323C1906D42C00305A5A /* CHTCollectionViewWaterfallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5435323B1906D42C00305A5A /* CHTCollectionViewWaterfallLayout.m */; };
+		5435323E1906E90000305A5A /* No-Promises-Shayne-Ward.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5435323D1906E90000305A5A /* No-Promises-Shayne-Ward.mp3 */; };
+		543532401906E94500305A5A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5435323F1906E94500305A5A /* AVFoundation.framework */; };
+		543532421906E94B00305A5A /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 543532411906E94B00305A5A /* MediaPlayer.framework */; };
+		543532441906F8AB00305A5A /* Ultil-you-Shayne-Ward.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 543532431906F8AB00305A5A /* Ultil-you-Shayne-Ward.mp3 */; };
+		543532461906F9D000305A5A /* Shayne+Ward+++PNG.png in Resources */ = {isa = PBXBuildFile; fileRef = 543532451906F9D000305A5A /* Shayne+Ward+++PNG.png */; };
+		5467AFBD1907605A000A9C76 /* PlayingMusicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5467AFBC1907605A000A9C76 /* PlayingMusicView.m */; };
+		54B34C8C19002CA100FF4C2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54B34C8B19002CA100FF4C2F /* Foundation.framework */; };
+		54B34C8E19002CA100FF4C2F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54B34C8D19002CA100FF4C2F /* CoreGraphics.framework */; };
+		54B34C9019002CA100FF4C2F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54B34C8F19002CA100FF4C2F /* UIKit.framework */; };
+		54B34C9619002CA100FF4C2F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 54B34C9419002CA100FF4C2F /* InfoPlist.strings */; };
+		54B34C9819002CA100FF4C2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B34C9719002CA100FF4C2F /* main.m */; };
+		54B34C9C19002CA100FF4C2F /* AprilAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B34C9B19002CA100FF4C2F /* AprilAppDelegate.m */; };
+		54B34CA519002CA100FF4C2F /* AprilViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B34CA419002CA100FF4C2F /* AprilViewController.m */; };
+		54B34CA719002CA100FF4C2F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54B34CA619002CA100FF4C2F /* Images.xcassets */; };
+		54B34CAE19002CA100FF4C2F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54B34CAD19002CA100FF4C2F /* XCTest.framework */; };
+		54B34CAF19002CA100FF4C2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54B34C8B19002CA100FF4C2F /* Foundation.framework */; };
+		54B34CB019002CA100FF4C2F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54B34C8F19002CA100FF4C2F /* UIKit.framework */; };
+		54B34CB819002CA100FF4C2F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 54B34CB619002CA100FF4C2F /* InfoPlist.strings */; };
+		54B34CBA19002CA100FF4C2F /* DongNhiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B34CB919002CA100FF4C2F /* DongNhiTests.m */; };
+		54B34CC819004CE500FF4C2F /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54B34CC419004CE500FF4C2F /* 0.jpg */; };
+		54B34CC919004CE500FF4C2F /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54B34CC519004CE500FF4C2F /* 1.jpg */; };
+		54B34CCA19004CE500FF4C2F /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54B34CC619004CE500FF4C2F /* 2.jpg */; };
+		54B34CCB19004CE500FF4C2F /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54B34CC719004CE500FF4C2F /* 3.jpg */; };
+		54B34CCF19004D4B00FF4C2F /* GalleryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B34CCE19004D4B00FF4C2F /* GalleryCell.m */; };
+		54B34CD219004DB500FF4C2F /* GalleryFlowLargeImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B34CD119004DB500FF4C2F /* GalleryFlowLargeImage.m */; };
+		54B34CD519004DC600FF4C2F /* GalleryFlowSmallImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B34CD419004DC600FF4C2F /* GalleryFlowSmallImage.m */; };
+		54B34CD8190052A900FF4C2F /* AprilPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B34CD7190052A900FF4C2F /* AprilPhotosViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54B34CB119002CA100FF4C2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54B34C8019002CA100FF4C2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54B34C8719002CA100FF4C2F;
+			remoteInfo = DongNhi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		543532301906AD1100305A5A /* AprilCustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AprilCustomViewController.h; sourceTree = "<group>"; };
+		543532311906AD1100305A5A /* AprilCustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AprilCustomViewController.m; sourceTree = "<group>"; };
+		5435323A1906D42C00305A5A /* CHTCollectionViewWaterfallLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHTCollectionViewWaterfallLayout.h; sourceTree = "<group>"; };
+		5435323B1906D42C00305A5A /* CHTCollectionViewWaterfallLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHTCollectionViewWaterfallLayout.m; sourceTree = "<group>"; };
+		5435323D1906E90000305A5A /* No-Promises-Shayne-Ward.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "No-Promises-Shayne-Ward.mp3"; sourceTree = "<group>"; };
+		5435323F1906E94500305A5A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		543532411906E94B00305A5A /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		543532431906F8AB00305A5A /* Ultil-you-Shayne-Ward.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ultil-you-Shayne-Ward.mp3"; sourceTree = "<group>"; };
+		543532451906F9D000305A5A /* Shayne+Ward+++PNG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Shayne+Ward+++PNG.png"; sourceTree = "<group>"; };
+		5467AFBB1907605A000A9C76 /* PlayingMusicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingMusicView.h; sourceTree = "<group>"; };
+		5467AFBC1907605A000A9C76 /* PlayingMusicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingMusicView.m; sourceTree = "<group>"; };
+		54B34C8819002CA100FF4C2F /* DongNhi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DongNhi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54B34C8B19002CA100FF4C2F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		54B34C8D19002CA100FF4C2F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		54B34C8F19002CA100FF4C2F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		54B34C9319002CA100FF4C2F /* DongNhi-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DongNhi-Info.plist"; sourceTree = "<group>"; };
+		54B34C9519002CA100FF4C2F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		54B34C9719002CA100FF4C2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		54B34C9919002CA100FF4C2F /* DongNhi-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DongNhi-Prefix.pch"; sourceTree = "<group>"; };
+		54B34C9A19002CA100FF4C2F /* AprilAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AprilAppDelegate.h; sourceTree = "<group>"; };
+		54B34C9B19002CA100FF4C2F /* AprilAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AprilAppDelegate.m; sourceTree = "<group>"; };
+		54B34CA319002CA100FF4C2F /* AprilViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AprilViewController.h; sourceTree = "<group>"; };
+		54B34CA419002CA100FF4C2F /* AprilViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AprilViewController.m; sourceTree = "<group>"; };
+		54B34CA619002CA100FF4C2F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		54B34CAC19002CA100FF4C2F /* DongNhiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DongNhiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54B34CAD19002CA100FF4C2F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		54B34CB519002CA100FF4C2F /* DongNhiTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DongNhiTests-Info.plist"; sourceTree = "<group>"; };
+		54B34CB719002CA100FF4C2F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		54B34CB919002CA100FF4C2F /* DongNhiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DongNhiTests.m; sourceTree = "<group>"; };
+		54B34CC419004CE500FF4C2F /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
+		54B34CC519004CE500FF4C2F /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		54B34CC619004CE500FF4C2F /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		54B34CC719004CE500FF4C2F /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		54B34CCD19004D4B00FF4C2F /* GalleryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GalleryCell.h; sourceTree = "<group>"; };
+		54B34CCE19004D4B00FF4C2F /* GalleryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GalleryCell.m; sourceTree = "<group>"; };
+		54B34CD019004DB500FF4C2F /* GalleryFlowLargeImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GalleryFlowLargeImage.h; sourceTree = "<group>"; };
+		54B34CD119004DB500FF4C2F /* GalleryFlowLargeImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GalleryFlowLargeImage.m; sourceTree = "<group>"; };
+		54B34CD319004DC600FF4C2F /* GalleryFlowSmallImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GalleryFlowSmallImage.h; sourceTree = "<group>"; };
+		54B34CD419004DC600FF4C2F /* GalleryFlowSmallImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GalleryFlowSmallImage.m; sourceTree = "<group>"; };
+		54B34CD6190052A900FF4C2F /* AprilPhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AprilPhotosViewController.h; sourceTree = "<group>"; };
+		54B34CD7190052A900FF4C2F /* AprilPhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AprilPhotosViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54B34C8519002CA100FF4C2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				543532421906E94B00305A5A /* MediaPlayer.framework in Frameworks */,
+				543532401906E94500305A5A /* AVFoundation.framework in Frameworks */,
+				54B34C8E19002CA100FF4C2F /* CoreGraphics.framework in Frameworks */,
+				54B34C9019002CA100FF4C2F /* UIKit.framework in Frameworks */,
+				54B34C8C19002CA100FF4C2F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54B34CA919002CA100FF4C2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54B34CAE19002CA100FF4C2F /* XCTest.framework in Frameworks */,
+				54B34CB019002CA100FF4C2F /* UIKit.framework in Frameworks */,
+				54B34CAF19002CA100FF4C2F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54B34C7F19002CA100FF4C2F = {
+			isa = PBXGroup;
+			children = (
+				54B34C9119002CA100FF4C2F /* DongNhi */,
+				54B34CB319002CA100FF4C2F /* DongNhiTests */,
+				54B34C8A19002CA100FF4C2F /* Frameworks */,
+				54B34C8919002CA100FF4C2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54B34C8919002CA100FF4C2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54B34C8819002CA100FF4C2F /* DongNhi.app */,
+				54B34CAC19002CA100FF4C2F /* DongNhiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54B34C8A19002CA100FF4C2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				543532411906E94B00305A5A /* MediaPlayer.framework */,
+				5435323F1906E94500305A5A /* AVFoundation.framework */,
+				54B34C8B19002CA100FF4C2F /* Foundation.framework */,
+				54B34C8D19002CA100FF4C2F /* CoreGraphics.framework */,
+				54B34C8F19002CA100FF4C2F /* UIKit.framework */,
+				54B34CAD19002CA100FF4C2F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		54B34C9119002CA100FF4C2F /* DongNhi */ = {
+			isa = PBXGroup;
+			children = (
+				5435323D1906E90000305A5A /* No-Promises-Shayne-Ward.mp3 */,
+				543532431906F8AB00305A5A /* Ultil-you-Shayne-Ward.mp3 */,
+				543532451906F9D000305A5A /* Shayne+Ward+++PNG.png */,
+				54B34CCC19004D3100FF4C2F /* lib */,
+				54B34C9A19002CA100FF4C2F /* AprilAppDelegate.h */,
+				54B34C9B19002CA100FF4C2F /* AprilAppDelegate.m */,
+				54B34CA319002CA100FF4C2F /* AprilViewController.h */,
+				54B34CA419002CA100FF4C2F /* AprilViewController.m */,
+				54B34CD6190052A900FF4C2F /* AprilPhotosViewController.h */,
+				54B34CD7190052A900FF4C2F /* AprilPhotosViewController.m */,
+				543532301906AD1100305A5A /* AprilCustomViewController.h */,
+				543532311906AD1100305A5A /* AprilCustomViewController.m */,
+				54B34CA619002CA100FF4C2F /* Images.xcassets */,
+				54B34C9219002CA100FF4C2F /* Supporting Files */,
+			);
+			path = DongNhi;
+			sourceTree = "<group>";
+		};
+		54B34C9219002CA100FF4C2F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				54B34CC319004CDA00FF4C2F /* images */,
+				54B34C9319002CA100FF4C2F /* DongNhi-Info.plist */,
+				54B34C9419002CA100FF4C2F /* InfoPlist.strings */,
+				54B34C9719002CA100FF4C2F /* main.m */,
+				54B34C9919002CA100FF4C2F /* DongNhi-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		54B34CB319002CA100FF4C2F /* DongNhiTests */ = {
+			isa = PBXGroup;
+			children = (
+				54B34CB919002CA100FF4C2F /* DongNhiTests.m */,
+				54B34CB419002CA100FF4C2F /* Supporting Files */,
+			);
+			path = DongNhiTests;
+			sourceTree = "<group>";
+		};
+		54B34CB419002CA100FF4C2F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				54B34CB519002CA100FF4C2F /* DongNhiTests-Info.plist */,
+				54B34CB619002CA100FF4C2F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		54B34CC319004CDA00FF4C2F /* images */ = {
+			isa = PBXGroup;
+			children = (
+				54B34CC419004CE500FF4C2F /* 0.jpg */,
+				54B34CC519004CE500FF4C2F /* 1.jpg */,
+				54B34CC619004CE500FF4C2F /* 2.jpg */,
+				54B34CC719004CE500FF4C2F /* 3.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		54B34CCC19004D3100FF4C2F /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				54B34CCD19004D4B00FF4C2F /* GalleryCell.h */,
+				54B34CCE19004D4B00FF4C2F /* GalleryCell.m */,
+				54B34CD019004DB500FF4C2F /* GalleryFlowLargeImage.h */,
+				54B34CD119004DB500FF4C2F /* GalleryFlowLargeImage.m */,
+				54B34CD319004DC600FF4C2F /* GalleryFlowSmallImage.h */,
+				54B34CD419004DC600FF4C2F /* GalleryFlowSmallImage.m */,
+				5435323A1906D42C00305A5A /* CHTCollectionViewWaterfallLayout.h */,
+				5435323B1906D42C00305A5A /* CHTCollectionViewWaterfallLayout.m */,
+				5467AFBB1907605A000A9C76 /* PlayingMusicView.h */,
+				5467AFBC1907605A000A9C76 /* PlayingMusicView.m */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54B34C8719002CA100FF4C2F /* DongNhi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54B34CBD19002CA100FF4C2F /* Build configuration list for PBXNativeTarget "DongNhi" */;
+			buildPhases = (
+				54B34C8419002CA100FF4C2F /* Sources */,
+				54B34C8519002CA100FF4C2F /* Frameworks */,
+				54B34C8619002CA100FF4C2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DongNhi;
+			productName = DongNhi;
+			productReference = 54B34C8819002CA100FF4C2F /* DongNhi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54B34CAB19002CA100FF4C2F /* DongNhiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54B34CC019002CA100FF4C2F /* Build configuration list for PBXNativeTarget "DongNhiTests" */;
+			buildPhases = (
+				54B34CA819002CA100FF4C2F /* Sources */,
+				54B34CA919002CA100FF4C2F /* Frameworks */,
+				54B34CAA19002CA100FF4C2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54B34CB219002CA100FF4C2F /* PBXTargetDependency */,
+			);
+			name = DongNhiTests;
+			productName = DongNhiTests;
+			productReference = 54B34CAC19002CA100FF4C2F /* DongNhiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54B34C8019002CA100FF4C2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = April;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = April;
+				TargetAttributes = {
+					54B34CAB19002CA100FF4C2F = {
+						TestTargetID = 54B34C8719002CA100FF4C2F;
+					};
+				};
+			};
+			buildConfigurationList = 54B34C8319002CA100FF4C2F /* Build configuration list for PBXProject "DongNhi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54B34C7F19002CA100FF4C2F;
+			productRefGroup = 54B34C8919002CA100FF4C2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54B34C8719002CA100FF4C2F /* DongNhi */,
+				54B34CAB19002CA100FF4C2F /* DongNhiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54B34C8619002CA100FF4C2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54B34CC819004CE500FF4C2F /* 0.jpg in Resources */,
+				543532461906F9D000305A5A /* Shayne+Ward+++PNG.png in Resources */,
+				54B34CCA19004CE500FF4C2F /* 2.jpg in Resources */,
+				54B34CA719002CA100FF4C2F /* Images.xcassets in Resources */,
+				543532441906F8AB00305A5A /* Ultil-you-Shayne-Ward.mp3 in Resources */,
+				54B34CC919004CE500FF4C2F /* 1.jpg in Resources */,
+				54B34C9619002CA100FF4C2F /* InfoPlist.strings in Resources */,
+				5435323E1906E90000305A5A /* No-Promises-Shayne-Ward.mp3 in Resources */,
+				54B34CCB19004CE500FF4C2F /* 3.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54B34CAA19002CA100FF4C2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54B34CB819002CA100FF4C2F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54B34C8419002CA100FF4C2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				543532321906AD1100305A5A /* AprilCustomViewController.m in Sources */,
+				5435323C1906D42C00305A5A /* CHTCollectionViewWaterfallLayout.m in Sources */,
+				54B34CCF19004D4B00FF4C2F /* GalleryCell.m in Sources */,
+				54B34C9819002CA100FF4C2F /* main.m in Sources */,
+				54B34CD519004DC600FF4C2F /* GalleryFlowSmallImage.m in Sources */,
+				54B34CA519002CA100FF4C2F /* AprilViewController.m in Sources */,
+				54B34CD219004DB500FF4C2F /* GalleryFlowLargeImage.m in Sources */,
+				5467AFBD1907605A000A9C76 /* PlayingMusicView.m in Sources */,
+				54B34C9C19002CA100FF4C2F /* AprilAppDelegate.m in Sources */,
+				54B34CD8190052A900FF4C2F /* AprilPhotosViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54B34CA819002CA100FF4C2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54B34CBA19002CA100FF4C2F /* DongNhiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54B34CB219002CA100FF4C2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54B34C8719002CA100FF4C2F /* DongNhi */;
+			targetProxy = 54B34CB119002CA100FF4C2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		54B34C9419002CA100FF4C2F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54B34C9519002CA100FF4C2F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		54B34CB619002CA100FF4C2F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54B34CB719002CA100FF4C2F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54B34CBB19002CA100FF4C2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54B34CBC19002CA100FF4C2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54B34CBE19002CA100FF4C2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DongNhi/DongNhi-Prefix.pch";
+				INFOPLIST_FILE = "DongNhi/DongNhi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		54B34CBF19002CA100FF4C2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DongNhi/DongNhi-Prefix.pch";
+				INFOPLIST_FILE = "DongNhi/DongNhi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		54B34CC119002CA100FF4C2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DongNhi.app/DongNhi";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DongNhi/DongNhi-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DongNhiTests/DongNhiTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		54B34CC219002CA100FF4C2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DongNhi.app/DongNhi";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DongNhi/DongNhi-Prefix.pch";
+				INFOPLIST_FILE = "DongNhiTests/DongNhiTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54B34C8319002CA100FF4C2F /* Build configuration list for PBXProject "DongNhi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54B34CBB19002CA100FF4C2F /* Debug */,
+				54B34CBC19002CA100FF4C2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54B34CBD19002CA100FF4C2F /* Build configuration list for PBXNativeTarget "DongNhi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54B34CBE19002CA100FF4C2F /* Debug */,
+				54B34CBF19002CA100FF4C2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54B34CC019002CA100FF4C2F /* Build configuration list for PBXNativeTarget "DongNhiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54B34CC119002CA100FF4C2F /* Debug */,
+				54B34CC219002CA100FF4C2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54B34C8019002CA100FF4C2F /* Project object */;
+}
